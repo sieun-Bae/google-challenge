@@ -25,6 +25,18 @@ int main()
 }
 ```
 
+- find()
+- 원소가 존재하면 이를 가리키는 반복자 리턴
+- 원소가 존재하지 않으면 s.end() 리턴
+```
+if (nums.find(potentialMatch) != nums.end()) {
+	printf("Yes\n");
+} else {
+	num.insert(num);
+	printf("No\n");
+}
+```
+
 <br>
 
 ### Reference
