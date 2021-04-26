@@ -40,6 +40,8 @@ int main()
 	m.value_comp();
 	m.size();
 	m.max_size();
+	m.max_element();
+
 	return 0;
 }
 ```
