@@ -1,6 +1,8 @@
 # Google-challenge
 <br>
+
 ### data structure:
+
 <ul> arrays </ul>
 <ul> linked lists </ul>
 <ul> stacks </ul>
@@ -12,6 +14,7 @@
 <ul> graphs </ul>
 
 ### algorithms typically used:
+
 <ul> sorting, searching, and binary search </ul>
 <ul> divide and conquer </ul>
 <ul> dynamic programming and memorization </ul>
