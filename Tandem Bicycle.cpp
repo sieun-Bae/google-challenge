@@ -2,6 +2,7 @@
 #include <algorithm>
 using namespace std;
 
+// O(NlogN) + O(N) + O(N) = O(NlogN) time | O(1) space
 int tandemBicycle(vector<int> redShirtSpeeds, vector<int> blueShirtSpeeds,
                   bool fastest) {
   sort(redShirtSpeeds.begin(), redShirtSpeeds.end());
