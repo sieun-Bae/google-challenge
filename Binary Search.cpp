@@ -21,18 +21,11 @@ int binarySearch(vector<int> array, int target) {
 		int mid = (left+right)/2;
 		printf("%d %d %d\n", left, mid, right);
 		if (array[mid] > target) {
-			right = mid;
+			right = mid-1;
 		} else if (array[mid] < target) {
 			left = mid+1;
 		} else {
 			return mid;
-		}
-		if (left==mid && mid==right) {
-			if (array[mid] != target)
-				break;
-			else {
-				return mid;
-			}
 		}
 	}
 	
