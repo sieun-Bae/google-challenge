@@ -33,7 +33,7 @@ int binarySearch(vector<int> array, int target) {
 	
 	return -1;
 }
-//O(logN) time | O(logN) space
+//O(logN) time | O(logN) space 
 //recursively
 int binarySearch(vector<int> array, int target) {
 	retturn binarySearchHelper(array, target, 0, array.size()-1);
